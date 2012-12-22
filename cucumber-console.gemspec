@@ -14,7 +14,6 @@ Gem::Specification.new do |s|
   s.summary     = "Run Cucumber tests in your console"
   s.description = "Run Cucumber tests in your console"
 
-  s.add_dependency 'cucumber'
   s.add_dependency 'rails-env-switcher'
 
   s.files        = Dir["lib/**/*"] + ['README.md']
